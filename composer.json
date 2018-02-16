@@ -1,0 +1,21 @@
+{
+  "name": "programie/statuspage-client",
+  "description": "A client for Statuspage.io",
+  "type": "library",
+  "require": {
+    "programie/phpcurl": "^1.3"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "": "src/main/php"
+    }
+  },
+  "authors": [
+    {
+      "name": "Michael Wieland",
+      "email": "git@selfcoders.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}

@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "40899f1718e0e367d0dc918be69ccd01",
+    "packages": [
+        {
+            "name": "programie/phpcurl",
+            "version": "1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Programie/PHPCurl.git",
+                "reference": "285668a97e1cf5410495856844a0e23eaa84b51e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Programie/PHPCurl/zipball/285668a97e1cf5410495856844a0e23eaa84b51e",
+                "reference": "285668a97e1cf5410495856844a0e23eaa84b51e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Wieland",
+                    "email": "phpcurl@selfcoders.com",
+                    "homepage": "https://selfcoders.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP OOP wrapper for Curl with some additional features",
+            "time": "2016-08-30T13:27:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
